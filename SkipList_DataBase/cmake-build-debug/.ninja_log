@@ -1,0 +1,7 @@
+# ninja log v5
+0	332	1680079715253873323	CMakeFiles/SkipList_DataBase.dir/main.cpp.o	5e465f2ef92bb31a
+333	386	1680079715309109291	SkipList_DataBase	272dd1c86cbd2aff
+3	606	1680080121114840332	CMakeFiles/SkipList_DataBase.dir/main.cpp.o	5e465f2ef92bb31a
+606	656	1680080121167667122	SkipList_DataBase	272dd1c86cbd2aff
+3	318	1680080524305303738	CMakeFiles/SkipList_DataBase.dir/main.cpp.o	5e465f2ef92bb31a
+318	350	1680080524339833336	SkipList_DataBase	272dd1c86cbd2aff
