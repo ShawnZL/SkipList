@@ -49,7 +49,7 @@ Node<K, V>::Node(const K k, const V v, int level) {
 
 template<typename K, typename V>
 Node<K, V>::~Node() {
-    delete []forward; //删除forward指针
+    delete []forward; //删除forward数组
 }
 
 template<typename K, typename V>
@@ -64,7 +64,7 @@ V Node<K, V>::get_value() const {
 
 template<typename K, typename V>
 void Node<K, V>::set_value(V v) {
-    this -> value = value;
+    this -> value = v;
 }
 
 //class template for Skip list
@@ -288,7 +288,7 @@ bool SkipList<K, V>::delete_element(K key) {
         }
 
         std::cout << "Successfully deleted key "<< key << std::endl;
-        _element_count --;
+        _element_count--;
     }
     mtx.unlock();
     return true;
